@@ -204,8 +204,8 @@ build UNP05: C_EXECUTABLE_LINKER__UNP05_Debug CMakeFiles/UNP05.dir/ECHO/EchoServ
 
 build cmake_object_order_depends_target_UNP06: phony || CMakeFiles/UNP06.dir
 
-build CMakeFiles/UNP06.dir/CHAT/chat-init-client.c.o: C_COMPILER__UNP06_Debug /home/priyanshu/UNP/CHAT/chat-init-client.c || cmake_object_order_depends_target_UNP06
-  DEP_FILE = CMakeFiles/UNP06.dir/CHAT/chat-init-client.c.o.d
+build CMakeFiles/UNP06.dir/CHAT/chat-client.c.o: C_COMPILER__UNP06_Debug /home/priyanshu/UNP/CHAT/chat-client.c || cmake_object_order_depends_target_UNP06
+  DEP_FILE = CMakeFiles/UNP06.dir/CHAT/chat-client.c.o.d
   FLAGS = -g -std=gnu99
   OBJECT_DIR = CMakeFiles/UNP06.dir
   OBJECT_FILE_DIR = CMakeFiles/UNP06.dir/CHAT
@@ -218,7 +218,7 @@ build CMakeFiles/UNP06.dir/CHAT/chat-init-client.c.o: C_COMPILER__UNP06_Debug /h
 #############################################
 # Link the executable UNP06
 
-build UNP06: C_EXECUTABLE_LINKER__UNP06_Debug CMakeFiles/UNP06.dir/CHAT/chat-init-client.c.o
+build UNP06: C_EXECUTABLE_LINKER__UNP06_Debug CMakeFiles/UNP06.dir/CHAT/chat-client.c.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/UNP06.dir
   POST_BUILD = :
@@ -235,8 +235,8 @@ build UNP06: C_EXECUTABLE_LINKER__UNP06_Debug CMakeFiles/UNP06.dir/CHAT/chat-ini
 
 build cmake_object_order_depends_target_UNP07: phony || CMakeFiles/UNP07.dir
 
-build CMakeFiles/UNP07.dir/CHAT/chat-client.c.o: C_COMPILER__UNP07_Debug /home/priyanshu/UNP/CHAT/chat-client.c || cmake_object_order_depends_target_UNP07
-  DEP_FILE = CMakeFiles/UNP07.dir/CHAT/chat-client.c.o.d
+build CMakeFiles/UNP07.dir/CHAT/chat-server.c.o: C_COMPILER__UNP07_Debug /home/priyanshu/UNP/CHAT/chat-server.c || cmake_object_order_depends_target_UNP07
+  DEP_FILE = CMakeFiles/UNP07.dir/CHAT/chat-server.c.o.d
   FLAGS = -g -std=gnu99
   OBJECT_DIR = CMakeFiles/UNP07.dir
   OBJECT_FILE_DIR = CMakeFiles/UNP07.dir/CHAT
@@ -249,7 +249,7 @@ build CMakeFiles/UNP07.dir/CHAT/chat-client.c.o: C_COMPILER__UNP07_Debug /home/p
 #############################################
 # Link the executable UNP07
 
-build UNP07: C_EXECUTABLE_LINKER__UNP07_Debug CMakeFiles/UNP07.dir/CHAT/chat-client.c.o
+build UNP07: C_EXECUTABLE_LINKER__UNP07_Debug CMakeFiles/UNP07.dir/CHAT/chat-server.c.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/UNP07.dir
   POST_BUILD = :
@@ -350,6 +350,99 @@ build UNP10: C_EXECUTABLE_LINKER__UNP10_Debug CMakeFiles/UNP10.dir/CONCURRENT_EC
   TARGET_FILE = UNP10
   TARGET_PDB = UNP10.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target UNP11
+
+
+#############################################
+# Order-only phony target for UNP11
+
+build cmake_object_order_depends_target_UNP11: phony || CMakeFiles/UNP11.dir
+
+build CMakeFiles/UNP11.dir/CONCURRENT_CHAT/chat-client-01.c.o: C_COMPILER__UNP11_Debug /home/priyanshu/UNP/CONCURRENT$ CHAT/chat-client-01.c || cmake_object_order_depends_target_UNP11
+  DEP_FILE = CMakeFiles/UNP11.dir/CONCURRENT_CHAT/chat-client-01.c.o.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles/UNP11.dir
+  OBJECT_FILE_DIR = CMakeFiles/UNP11.dir/CONCURRENT_CHAT
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target UNP11
+
+
+#############################################
+# Link the executable UNP11
+
+build UNP11: C_EXECUTABLE_LINKER__UNP11_Debug CMakeFiles/UNP11.dir/CONCURRENT_CHAT/chat-client-01.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/UNP11.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = UNP11
+  TARGET_PDB = UNP11.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target UNP12
+
+
+#############################################
+# Order-only phony target for UNP12
+
+build cmake_object_order_depends_target_UNP12: phony || CMakeFiles/UNP12.dir
+
+build CMakeFiles/UNP12.dir/CONCURRENT_CHAT/chat-client-02.c.o: C_COMPILER__UNP12_Debug /home/priyanshu/UNP/CONCURRENT$ CHAT/chat-client-02.c || cmake_object_order_depends_target_UNP12
+  DEP_FILE = CMakeFiles/UNP12.dir/CONCURRENT_CHAT/chat-client-02.c.o.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles/UNP12.dir
+  OBJECT_FILE_DIR = CMakeFiles/UNP12.dir/CONCURRENT_CHAT
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target UNP12
+
+
+#############################################
+# Link the executable UNP12
+
+build UNP12: C_EXECUTABLE_LINKER__UNP12_Debug CMakeFiles/UNP12.dir/CONCURRENT_CHAT/chat-client-02.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/UNP12.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = UNP12
+  TARGET_PDB = UNP12.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target UNP13
+
+
+#############################################
+# Order-only phony target for UNP13
+
+build cmake_object_order_depends_target_UNP13: phony || CMakeFiles/UNP13.dir
+
+build CMakeFiles/UNP13.dir/CONCURRENT_CHAT/chat-server.c.o: C_COMPILER__UNP13_Debug /home/priyanshu/UNP/CONCURRENT$ CHAT/chat-server.c || cmake_object_order_depends_target_UNP13
+  DEP_FILE = CMakeFiles/UNP13.dir/CONCURRENT_CHAT/chat-server.c.o.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles/UNP13.dir
+  OBJECT_FILE_DIR = CMakeFiles/UNP13.dir/CONCURRENT_CHAT
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target UNP13
+
+
+#############################################
+# Link the executable UNP13
+
+build UNP13: C_EXECUTABLE_LINKER__UNP13_Debug CMakeFiles/UNP13.dir/CONCURRENT_CHAT/chat-server.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/UNP13.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = UNP13
+  TARGET_PDB = UNP13.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -385,7 +478,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /home/priyanshu/UNP/cmake-build-debug
 
-build all: phony UNP01 UNP02 UNP03 UNP04 UNP05 UNP06 UNP07 UNP08 UNP09 UNP10
+build all: phony UNP01 UNP02 UNP03 UNP04 UNP05 UNP06 UNP07 UNP08 UNP09 UNP10 UNP11 UNP12 UNP13
 
 # =============================================================================
 # Built-in targets
