@@ -4,6 +4,7 @@
 #include <unistd.h>
 #include <time.h>
 #include <string.h>
+#include <stdlib.h>
 int main(int argc, char *argv[])
 {
     int net_socket;
@@ -11,23 +12,29 @@ int main(int argc, char *argv[])
 
     struct sockaddr_in server_address, client_address;
     server_address.sin_family = AF_INET;
-    server_address.sin_port = htons(5600);
+    server_address.sin_port = htons(5900);
     server_address.sin_addr.s_addr = inet_addr(argv[1]);
 
     bind(net_socket, (struct sockaddr*)&server_address,sizeof(server_address));
 
     listen(net_socket,10);
-    time_t tick;
     char str[100];
     int fd;
     int c;
     while(1)
     {
         fd=accept(net_socket,(struct sockaddr*)&client_address,&c);
-        tick=time(NULL);
-        snprintf(str,sizeof(str),"%s",ctime(&tick));
-        printf("%s",str);
-        write(fd,str,strlen(str));
+        while (1) {
+            int n = recv(fd, str, 99, 0);
+            if(n==0)
+                break;
+            str[n]='\0';
+            printf("Message Recieved : %s",str);
+            printf("\nSend Message : ");
+            scanf("%s",str);
+            write(fd, str, strlen(str));
+
+        }
         close(fd);
     }
 }
