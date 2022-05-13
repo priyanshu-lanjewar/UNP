@@ -80,8 +80,8 @@ build UNP01: C_EXECUTABLE_LINKER__UNP01_Debug CMakeFiles/UNP01.dir/main.c.o
 
 build cmake_object_order_depends_target_UNP02: phony || CMakeFiles/UNP02.dir
 
-build CMakeFiles/UNP02.dir/TIME/001client.c.o: C_COMPILER__UNP02_Debug /home/priyanshu/UNP/TIME/001client.c || cmake_object_order_depends_target_UNP02
-  DEP_FILE = CMakeFiles/UNP02.dir/TIME/001client.c.o.d
+build CMakeFiles/UNP02.dir/TIME/client.c.o: C_COMPILER__UNP02_Debug /home/priyanshu/UNP/TIME/client.c || cmake_object_order_depends_target_UNP02
+  DEP_FILE = CMakeFiles/UNP02.dir/TIME/client.c.o.d
   FLAGS = -g -std=gnu99
   OBJECT_DIR = CMakeFiles/UNP02.dir
   OBJECT_FILE_DIR = CMakeFiles/UNP02.dir/TIME
@@ -94,7 +94,7 @@ build CMakeFiles/UNP02.dir/TIME/001client.c.o: C_COMPILER__UNP02_Debug /home/pri
 #############################################
 # Link the executable UNP02
 
-build UNP02: C_EXECUTABLE_LINKER__UNP02_Debug CMakeFiles/UNP02.dir/TIME/001client.c.o
+build UNP02: C_EXECUTABLE_LINKER__UNP02_Debug CMakeFiles/UNP02.dir/TIME/client.c.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/UNP02.dir
   POST_BUILD = :
@@ -111,8 +111,8 @@ build UNP02: C_EXECUTABLE_LINKER__UNP02_Debug CMakeFiles/UNP02.dir/TIME/001clien
 
 build cmake_object_order_depends_target_UNP03: phony || CMakeFiles/UNP03.dir
 
-build CMakeFiles/UNP03.dir/TIME/001server.c.o: C_COMPILER__UNP03_Debug /home/priyanshu/UNP/TIME/001server.c || cmake_object_order_depends_target_UNP03
-  DEP_FILE = CMakeFiles/UNP03.dir/TIME/001server.c.o.d
+build CMakeFiles/UNP03.dir/TIME/server.c.o: C_COMPILER__UNP03_Debug /home/priyanshu/UNP/TIME/server.c || cmake_object_order_depends_target_UNP03
+  DEP_FILE = CMakeFiles/UNP03.dir/TIME/server.c.o.d
   FLAGS = -g -std=gnu99
   OBJECT_DIR = CMakeFiles/UNP03.dir
   OBJECT_FILE_DIR = CMakeFiles/UNP03.dir/TIME
@@ -125,7 +125,7 @@ build CMakeFiles/UNP03.dir/TIME/001server.c.o: C_COMPILER__UNP03_Debug /home/pri
 #############################################
 # Link the executable UNP03
 
-build UNP03: C_EXECUTABLE_LINKER__UNP03_Debug CMakeFiles/UNP03.dir/TIME/001server.c.o
+build UNP03: C_EXECUTABLE_LINKER__UNP03_Debug CMakeFiles/UNP03.dir/TIME/server.c.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/UNP03.dir
   POST_BUILD = :
@@ -142,8 +142,8 @@ build UNP03: C_EXECUTABLE_LINKER__UNP03_Debug CMakeFiles/UNP03.dir/TIME/001serve
 
 build cmake_object_order_depends_target_UNP04: phony || CMakeFiles/UNP04.dir
 
-build CMakeFiles/UNP04.dir/ECHO/Echoclient.c.o: C_COMPILER__UNP04_Debug /home/priyanshu/UNP/ECHO/Echoclient.c || cmake_object_order_depends_target_UNP04
-  DEP_FILE = CMakeFiles/UNP04.dir/ECHO/Echoclient.c.o.d
+build CMakeFiles/UNP04.dir/ECHO/EchoClient.c.o: C_COMPILER__UNP04_Debug /home/priyanshu/UNP/ECHO/EchoClient.c || cmake_object_order_depends_target_UNP04
+  DEP_FILE = CMakeFiles/UNP04.dir/ECHO/EchoClient.c.o.d
   FLAGS = -g -std=gnu99
   OBJECT_DIR = CMakeFiles/UNP04.dir
   OBJECT_FILE_DIR = CMakeFiles/UNP04.dir/ECHO
@@ -156,7 +156,7 @@ build CMakeFiles/UNP04.dir/ECHO/Echoclient.c.o: C_COMPILER__UNP04_Debug /home/pr
 #############################################
 # Link the executable UNP04
 
-build UNP04: C_EXECUTABLE_LINKER__UNP04_Debug CMakeFiles/UNP04.dir/ECHO/Echoclient.c.o
+build UNP04: C_EXECUTABLE_LINKER__UNP04_Debug CMakeFiles/UNP04.dir/ECHO/EchoClient.c.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/UNP04.dir
   POST_BUILD = :
@@ -257,6 +257,99 @@ build UNP07: C_EXECUTABLE_LINKER__UNP07_Debug CMakeFiles/UNP07.dir/CHAT/chat-cli
   TARGET_FILE = UNP07
   TARGET_PDB = UNP07.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target UNP08
+
+
+#############################################
+# Order-only phony target for UNP08
+
+build cmake_object_order_depends_target_UNP08: phony || CMakeFiles/UNP08.dir
+
+build CMakeFiles/UNP08.dir/CONCURRENT_ECHO/EchoClient01.c.o: C_COMPILER__UNP08_Debug /home/priyanshu/UNP/CONCURRENT$ ECHO/EchoClient01.c || cmake_object_order_depends_target_UNP08
+  DEP_FILE = CMakeFiles/UNP08.dir/CONCURRENT_ECHO/EchoClient01.c.o.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles/UNP08.dir
+  OBJECT_FILE_DIR = CMakeFiles/UNP08.dir/CONCURRENT_ECHO
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target UNP08
+
+
+#############################################
+# Link the executable UNP08
+
+build UNP08: C_EXECUTABLE_LINKER__UNP08_Debug CMakeFiles/UNP08.dir/CONCURRENT_ECHO/EchoClient01.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/UNP08.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = UNP08
+  TARGET_PDB = UNP08.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target UNP09
+
+
+#############################################
+# Order-only phony target for UNP09
+
+build cmake_object_order_depends_target_UNP09: phony || CMakeFiles/UNP09.dir
+
+build CMakeFiles/UNP09.dir/CONCURRENT_ECHO/EchoClient02.c.o: C_COMPILER__UNP09_Debug /home/priyanshu/UNP/CONCURRENT$ ECHO/EchoClient02.c || cmake_object_order_depends_target_UNP09
+  DEP_FILE = CMakeFiles/UNP09.dir/CONCURRENT_ECHO/EchoClient02.c.o.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles/UNP09.dir
+  OBJECT_FILE_DIR = CMakeFiles/UNP09.dir/CONCURRENT_ECHO
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target UNP09
+
+
+#############################################
+# Link the executable UNP09
+
+build UNP09: C_EXECUTABLE_LINKER__UNP09_Debug CMakeFiles/UNP09.dir/CONCURRENT_ECHO/EchoClient02.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/UNP09.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = UNP09
+  TARGET_PDB = UNP09.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target UNP10
+
+
+#############################################
+# Order-only phony target for UNP10
+
+build cmake_object_order_depends_target_UNP10: phony || CMakeFiles/UNP10.dir
+
+build CMakeFiles/UNP10.dir/CONCURRENT_ECHO/EchoServer.c.o: C_COMPILER__UNP10_Debug /home/priyanshu/UNP/CONCURRENT$ ECHO/EchoServer.c || cmake_object_order_depends_target_UNP10
+  DEP_FILE = CMakeFiles/UNP10.dir/CONCURRENT_ECHO/EchoServer.c.o.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles/UNP10.dir
+  OBJECT_FILE_DIR = CMakeFiles/UNP10.dir/CONCURRENT_ECHO
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target UNP10
+
+
+#############################################
+# Link the executable UNP10
+
+build UNP10: C_EXECUTABLE_LINKER__UNP10_Debug CMakeFiles/UNP10.dir/CONCURRENT_ECHO/EchoServer.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/UNP10.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = UNP10
+  TARGET_PDB = UNP10.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -292,7 +385,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /home/priyanshu/UNP/cmake-build-debug
 
-build all: phony UNP01 UNP02 UNP03 UNP04 UNP05 UNP06 UNP07
+build all: phony UNP01 UNP02 UNP03 UNP04 UNP05 UNP06 UNP07 UNP08 UNP09 UNP10
 
 # =============================================================================
 # Built-in targets
