@@ -80,11 +80,11 @@ build UNP01: C_EXECUTABLE_LINKER__UNP01_Debug CMakeFiles/UNP01.dir/main.c.o
 
 build cmake_object_order_depends_target_UNP02: phony || CMakeFiles/UNP02.dir
 
-build CMakeFiles/UNP02.dir/001client.c.o: C_COMPILER__UNP02_Debug /home/priyanshu/UNP/001client.c || cmake_object_order_depends_target_UNP02
-  DEP_FILE = CMakeFiles/UNP02.dir/001client.c.o.d
+build CMakeFiles/UNP02.dir/TIME/001client.c.o: C_COMPILER__UNP02_Debug /home/priyanshu/UNP/TIME/001client.c || cmake_object_order_depends_target_UNP02
+  DEP_FILE = CMakeFiles/UNP02.dir/TIME/001client.c.o.d
   FLAGS = -g -std=gnu99
   OBJECT_DIR = CMakeFiles/UNP02.dir
-  OBJECT_FILE_DIR = CMakeFiles/UNP02.dir
+  OBJECT_FILE_DIR = CMakeFiles/UNP02.dir/TIME
 
 
 # =============================================================================
@@ -94,7 +94,7 @@ build CMakeFiles/UNP02.dir/001client.c.o: C_COMPILER__UNP02_Debug /home/priyansh
 #############################################
 # Link the executable UNP02
 
-build UNP02: C_EXECUTABLE_LINKER__UNP02_Debug CMakeFiles/UNP02.dir/001client.c.o
+build UNP02: C_EXECUTABLE_LINKER__UNP02_Debug CMakeFiles/UNP02.dir/TIME/001client.c.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/UNP02.dir
   POST_BUILD = :
@@ -111,11 +111,11 @@ build UNP02: C_EXECUTABLE_LINKER__UNP02_Debug CMakeFiles/UNP02.dir/001client.c.o
 
 build cmake_object_order_depends_target_UNP03: phony || CMakeFiles/UNP03.dir
 
-build CMakeFiles/UNP03.dir/001server.c.o: C_COMPILER__UNP03_Debug /home/priyanshu/UNP/001server.c || cmake_object_order_depends_target_UNP03
-  DEP_FILE = CMakeFiles/UNP03.dir/001server.c.o.d
+build CMakeFiles/UNP03.dir/TIME/001server.c.o: C_COMPILER__UNP03_Debug /home/priyanshu/UNP/TIME/001server.c || cmake_object_order_depends_target_UNP03
+  DEP_FILE = CMakeFiles/UNP03.dir/TIME/001server.c.o.d
   FLAGS = -g -std=gnu99
   OBJECT_DIR = CMakeFiles/UNP03.dir
-  OBJECT_FILE_DIR = CMakeFiles/UNP03.dir
+  OBJECT_FILE_DIR = CMakeFiles/UNP03.dir/TIME
 
 
 # =============================================================================
@@ -125,7 +125,7 @@ build CMakeFiles/UNP03.dir/001server.c.o: C_COMPILER__UNP03_Debug /home/priyansh
 #############################################
 # Link the executable UNP03
 
-build UNP03: C_EXECUTABLE_LINKER__UNP03_Debug CMakeFiles/UNP03.dir/001server.c.o
+build UNP03: C_EXECUTABLE_LINKER__UNP03_Debug CMakeFiles/UNP03.dir/TIME/001server.c.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/UNP03.dir
   POST_BUILD = :
@@ -142,11 +142,11 @@ build UNP03: C_EXECUTABLE_LINKER__UNP03_Debug CMakeFiles/UNP03.dir/001server.c.o
 
 build cmake_object_order_depends_target_UNP04: phony || CMakeFiles/UNP04.dir
 
-build CMakeFiles/UNP04.dir/002Echoclient.c.o: C_COMPILER__UNP04_Debug /home/priyanshu/UNP/002Echoclient.c || cmake_object_order_depends_target_UNP04
-  DEP_FILE = CMakeFiles/UNP04.dir/002Echoclient.c.o.d
+build CMakeFiles/UNP04.dir/ECHO/Echoclient.c.o: C_COMPILER__UNP04_Debug /home/priyanshu/UNP/ECHO/Echoclient.c || cmake_object_order_depends_target_UNP04
+  DEP_FILE = CMakeFiles/UNP04.dir/ECHO/Echoclient.c.o.d
   FLAGS = -g -std=gnu99
   OBJECT_DIR = CMakeFiles/UNP04.dir
-  OBJECT_FILE_DIR = CMakeFiles/UNP04.dir
+  OBJECT_FILE_DIR = CMakeFiles/UNP04.dir/ECHO
 
 
 # =============================================================================
@@ -156,7 +156,7 @@ build CMakeFiles/UNP04.dir/002Echoclient.c.o: C_COMPILER__UNP04_Debug /home/priy
 #############################################
 # Link the executable UNP04
 
-build UNP04: C_EXECUTABLE_LINKER__UNP04_Debug CMakeFiles/UNP04.dir/002Echoclient.c.o
+build UNP04: C_EXECUTABLE_LINKER__UNP04_Debug CMakeFiles/UNP04.dir/ECHO/Echoclient.c.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/UNP04.dir
   POST_BUILD = :
@@ -173,11 +173,11 @@ build UNP04: C_EXECUTABLE_LINKER__UNP04_Debug CMakeFiles/UNP04.dir/002Echoclient
 
 build cmake_object_order_depends_target_UNP05: phony || CMakeFiles/UNP05.dir
 
-build CMakeFiles/UNP05.dir/002EchoServer.c.o: C_COMPILER__UNP05_Debug /home/priyanshu/UNP/002EchoServer.c || cmake_object_order_depends_target_UNP05
-  DEP_FILE = CMakeFiles/UNP05.dir/002EchoServer.c.o.d
+build CMakeFiles/UNP05.dir/ECHO/EchoServer.c.o: C_COMPILER__UNP05_Debug /home/priyanshu/UNP/ECHO/EchoServer.c || cmake_object_order_depends_target_UNP05
+  DEP_FILE = CMakeFiles/UNP05.dir/ECHO/EchoServer.c.o.d
   FLAGS = -g -std=gnu99
   OBJECT_DIR = CMakeFiles/UNP05.dir
-  OBJECT_FILE_DIR = CMakeFiles/UNP05.dir
+  OBJECT_FILE_DIR = CMakeFiles/UNP05.dir/ECHO
 
 
 # =============================================================================
@@ -187,7 +187,7 @@ build CMakeFiles/UNP05.dir/002EchoServer.c.o: C_COMPILER__UNP05_Debug /home/priy
 #############################################
 # Link the executable UNP05
 
-build UNP05: C_EXECUTABLE_LINKER__UNP05_Debug CMakeFiles/UNP05.dir/002EchoServer.c.o
+build UNP05: C_EXECUTABLE_LINKER__UNP05_Debug CMakeFiles/UNP05.dir/ECHO/EchoServer.c.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/UNP05.dir
   POST_BUILD = :
@@ -204,11 +204,11 @@ build UNP05: C_EXECUTABLE_LINKER__UNP05_Debug CMakeFiles/UNP05.dir/002EchoServer
 
 build cmake_object_order_depends_target_UNP06: phony || CMakeFiles/UNP06.dir
 
-build CMakeFiles/UNP06.dir/chat-init-client.c.o: C_COMPILER__UNP06_Debug /home/priyanshu/UNP/chat-init-client.c || cmake_object_order_depends_target_UNP06
-  DEP_FILE = CMakeFiles/UNP06.dir/chat-init-client.c.o.d
+build CMakeFiles/UNP06.dir/CHAT/chat-init-client.c.o: C_COMPILER__UNP06_Debug /home/priyanshu/UNP/CHAT/chat-init-client.c || cmake_object_order_depends_target_UNP06
+  DEP_FILE = CMakeFiles/UNP06.dir/CHAT/chat-init-client.c.o.d
   FLAGS = -g -std=gnu99
   OBJECT_DIR = CMakeFiles/UNP06.dir
-  OBJECT_FILE_DIR = CMakeFiles/UNP06.dir
+  OBJECT_FILE_DIR = CMakeFiles/UNP06.dir/CHAT
 
 
 # =============================================================================
@@ -218,7 +218,7 @@ build CMakeFiles/UNP06.dir/chat-init-client.c.o: C_COMPILER__UNP06_Debug /home/p
 #############################################
 # Link the executable UNP06
 
-build UNP06: C_EXECUTABLE_LINKER__UNP06_Debug CMakeFiles/UNP06.dir/chat-init-client.c.o
+build UNP06: C_EXECUTABLE_LINKER__UNP06_Debug CMakeFiles/UNP06.dir/CHAT/chat-init-client.c.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/UNP06.dir
   POST_BUILD = :
@@ -235,11 +235,11 @@ build UNP06: C_EXECUTABLE_LINKER__UNP06_Debug CMakeFiles/UNP06.dir/chat-init-cli
 
 build cmake_object_order_depends_target_UNP07: phony || CMakeFiles/UNP07.dir
 
-build CMakeFiles/UNP07.dir/chat-client.c.o: C_COMPILER__UNP07_Debug /home/priyanshu/UNP/chat-client.c || cmake_object_order_depends_target_UNP07
-  DEP_FILE = CMakeFiles/UNP07.dir/chat-client.c.o.d
+build CMakeFiles/UNP07.dir/CHAT/chat-client.c.o: C_COMPILER__UNP07_Debug /home/priyanshu/UNP/CHAT/chat-client.c || cmake_object_order_depends_target_UNP07
+  DEP_FILE = CMakeFiles/UNP07.dir/CHAT/chat-client.c.o.d
   FLAGS = -g -std=gnu99
   OBJECT_DIR = CMakeFiles/UNP07.dir
-  OBJECT_FILE_DIR = CMakeFiles/UNP07.dir
+  OBJECT_FILE_DIR = CMakeFiles/UNP07.dir/CHAT
 
 
 # =============================================================================
@@ -249,7 +249,7 @@ build CMakeFiles/UNP07.dir/chat-client.c.o: C_COMPILER__UNP07_Debug /home/priyan
 #############################################
 # Link the executable UNP07
 
-build UNP07: C_EXECUTABLE_LINKER__UNP07_Debug CMakeFiles/UNP07.dir/chat-client.c.o
+build UNP07: C_EXECUTABLE_LINKER__UNP07_Debug CMakeFiles/UNP07.dir/CHAT/chat-client.c.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/UNP07.dir
   POST_BUILD = :
