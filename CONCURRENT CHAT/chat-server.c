@@ -2,9 +2,7 @@
 #include <sys/socket.h>
 #include <arpa/inet.h>
 #include <unistd.h>
-#include <time.h>
 #include <string.h>
-#include <stdlib.h>
 int main(int argc, char *argv[])
 {
     int net_socket;
