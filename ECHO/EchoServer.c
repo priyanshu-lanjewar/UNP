@@ -7,17 +7,18 @@
 #include <stdlib.h>
 int main(int argc, char *argv[])
 {
-    int net_socket;
+    int net_socket,len;
     net_socket = socket(AF_INET, SOCK_STREAM, 0);
 
     struct sockaddr_in server_address, client_address;
     server_address.sin_family = AF_INET;
-    server_address.sin_port = htons(5900);
-    server_address.sin_addr.s_addr = inet_addr(argv[1]);
+    server_address.sin_addr.s_addr = htonl(INADDR_ANY);
+    server_address.sin_port = htons(0);
 
 
     bind(net_socket, (struct sockaddr*)&server_address,sizeof(server_address));
-
+    getsockname(net_socket,(struct sockaddr*)&server_address,&len);
+    printf("PORT : %d\n",(int)ntohs(server_address.sin_port));
 
     // Listen Function creates Queue for incoming Request
     // Maintain 2 Queue 1 for incomplete 3 way handshake and other for those who has completed 3 way handshake
