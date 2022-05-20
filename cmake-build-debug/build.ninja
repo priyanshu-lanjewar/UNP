@@ -505,6 +505,68 @@ build UNP15: C_EXECUTABLE_LINKER__UNP15_Debug CMakeFiles/UNP15.dir/EXAMPLE/bzero
   TARGET_FILE = UNP15
   TARGET_PDB = UNP15.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target UNP16
+
+
+#############################################
+# Order-only phony target for UNP16
+
+build cmake_object_order_depends_target_UNP16: phony || CMakeFiles/UNP16.dir
+
+build CMakeFiles/UNP16.dir/EXAMPLE/bcmp.c.o: C_COMPILER__UNP16_Debug /home/priyanshu/UNP/EXAMPLE/bcmp.c || cmake_object_order_depends_target_UNP16
+  DEP_FILE = CMakeFiles/UNP16.dir/EXAMPLE/bcmp.c.o.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles/UNP16.dir
+  OBJECT_FILE_DIR = CMakeFiles/UNP16.dir/EXAMPLE
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target UNP16
+
+
+#############################################
+# Link the executable UNP16
+
+build UNP16: C_EXECUTABLE_LINKER__UNP16_Debug CMakeFiles/UNP16.dir/EXAMPLE/bcmp.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/UNP16.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = UNP16
+  TARGET_PDB = UNP16.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target UNP17
+
+
+#############################################
+# Order-only phony target for UNP17
+
+build cmake_object_order_depends_target_UNP17: phony || CMakeFiles/UNP17.dir
+
+build CMakeFiles/UNP17.dir/EXAMPLE/bcopy.c.o: C_COMPILER__UNP17_Debug /home/priyanshu/UNP/EXAMPLE/bcopy.c || cmake_object_order_depends_target_UNP17
+  DEP_FILE = CMakeFiles/UNP17.dir/EXAMPLE/bcopy.c.o.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles/UNP17.dir
+  OBJECT_FILE_DIR = CMakeFiles/UNP17.dir/EXAMPLE
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target UNP17
+
+
+#############################################
+# Link the executable UNP17
+
+build UNP17: C_EXECUTABLE_LINKER__UNP17_Debug CMakeFiles/UNP17.dir/EXAMPLE/bcopy.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/UNP17.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = UNP17
+  TARGET_PDB = UNP17.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -540,7 +602,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /home/priyanshu/UNP/cmake-build-debug
 
-build all: phony UNP01 UNP02 UNP03 UNP04 UNP05 UNP06 UNP07 UNP08 UNP09 UNP10 UNP11 UNP12 UNP13 UNP14 UNP15
+build all: phony UNP01 UNP02 UNP03 UNP04 UNP05 UNP06 UNP07 UNP08 UNP09 UNP10 UNP11 UNP12 UNP13 UNP14 UNP15 UNP16 UNP17
 
 # =============================================================================
 # Built-in targets
