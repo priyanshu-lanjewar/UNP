@@ -567,6 +567,161 @@ build UNP17: C_EXECUTABLE_LINKER__UNP17_Debug CMakeFiles/UNP17.dir/EXAMPLE/bcopy
   TARGET_FILE = UNP17
   TARGET_PDB = UNP17.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target UNP18
+
+
+#############################################
+# Order-only phony target for UNP18
+
+build cmake_object_order_depends_target_UNP18: phony || CMakeFiles/UNP18.dir
+
+build CMakeFiles/UNP18.dir/EXAMPLE/memset_str.c.o: C_COMPILER__UNP18_Debug /home/priyanshu/UNP/EXAMPLE/memset_str.c || cmake_object_order_depends_target_UNP18
+  DEP_FILE = CMakeFiles/UNP18.dir/EXAMPLE/memset_str.c.o.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles/UNP18.dir
+  OBJECT_FILE_DIR = CMakeFiles/UNP18.dir/EXAMPLE
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target UNP18
+
+
+#############################################
+# Link the executable UNP18
+
+build UNP18: C_EXECUTABLE_LINKER__UNP18_Debug CMakeFiles/UNP18.dir/EXAMPLE/memset_str.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/UNP18.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = UNP18
+  TARGET_PDB = UNP18.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target UNP19
+
+
+#############################################
+# Order-only phony target for UNP19
+
+build cmake_object_order_depends_target_UNP19: phony || CMakeFiles/UNP19.dir
+
+build CMakeFiles/UNP19.dir/EXAMPLE/memset_int.c.o: C_COMPILER__UNP19_Debug /home/priyanshu/UNP/EXAMPLE/memset_int.c || cmake_object_order_depends_target_UNP19
+  DEP_FILE = CMakeFiles/UNP19.dir/EXAMPLE/memset_int.c.o.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles/UNP19.dir
+  OBJECT_FILE_DIR = CMakeFiles/UNP19.dir/EXAMPLE
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target UNP19
+
+
+#############################################
+# Link the executable UNP19
+
+build UNP19: C_EXECUTABLE_LINKER__UNP19_Debug CMakeFiles/UNP19.dir/EXAMPLE/memset_int.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/UNP19.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = UNP19
+  TARGET_PDB = UNP19.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target UNP20
+
+
+#############################################
+# Order-only phony target for UNP20
+
+build cmake_object_order_depends_target_UNP20: phony || CMakeFiles/UNP20.dir
+
+build CMakeFiles/UNP20.dir/EXAMPLE/memcmp.c.o: C_COMPILER__UNP20_Debug /home/priyanshu/UNP/EXAMPLE/memcmp.c || cmake_object_order_depends_target_UNP20
+  DEP_FILE = CMakeFiles/UNP20.dir/EXAMPLE/memcmp.c.o.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles/UNP20.dir
+  OBJECT_FILE_DIR = CMakeFiles/UNP20.dir/EXAMPLE
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target UNP20
+
+
+#############################################
+# Link the executable UNP20
+
+build UNP20: C_EXECUTABLE_LINKER__UNP20_Debug CMakeFiles/UNP20.dir/EXAMPLE/memcmp.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/UNP20.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = UNP20
+  TARGET_PDB = UNP20.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target UNP21
+
+
+#############################################
+# Order-only phony target for UNP21
+
+build cmake_object_order_depends_target_UNP21: phony || CMakeFiles/UNP21.dir
+
+build CMakeFiles/UNP21.dir/EXAMPLE/memcpy.c.o: C_COMPILER__UNP21_Debug /home/priyanshu/UNP/EXAMPLE/memcpy.c || cmake_object_order_depends_target_UNP21
+  DEP_FILE = CMakeFiles/UNP21.dir/EXAMPLE/memcpy.c.o.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles/UNP21.dir
+  OBJECT_FILE_DIR = CMakeFiles/UNP21.dir/EXAMPLE
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target UNP21
+
+
+#############################################
+# Link the executable UNP21
+
+build UNP21: C_EXECUTABLE_LINKER__UNP21_Debug CMakeFiles/UNP21.dir/EXAMPLE/memcpy.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/UNP21.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = UNP21
+  TARGET_PDB = UNP21.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target UNP22
+
+
+#############################################
+# Order-only phony target for UNP22
+
+build cmake_object_order_depends_target_UNP22: phony || CMakeFiles/UNP22.dir
+
+build CMakeFiles/UNP22.dir/EXAMPLE/ip_manu.c.o: C_COMPILER__UNP22_Debug /home/priyanshu/UNP/EXAMPLE/ip_manu.c || cmake_object_order_depends_target_UNP22
+  DEP_FILE = CMakeFiles/UNP22.dir/EXAMPLE/ip_manu.c.o.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles/UNP22.dir
+  OBJECT_FILE_DIR = CMakeFiles/UNP22.dir/EXAMPLE
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target UNP22
+
+
+#############################################
+# Link the executable UNP22
+
+build UNP22: C_EXECUTABLE_LINKER__UNP22_Debug CMakeFiles/UNP22.dir/EXAMPLE/ip_manu.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/UNP22.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = UNP22
+  TARGET_PDB = UNP22.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -602,7 +757,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /home/priyanshu/UNP/cmake-build-debug
 
-build all: phony UNP01 UNP02 UNP03 UNP04 UNP05 UNP06 UNP07 UNP08 UNP09 UNP10 UNP11 UNP12 UNP13 UNP14 UNP15 UNP16 UNP17
+build all: phony UNP01 UNP02 UNP03 UNP04 UNP05 UNP06 UNP07 UNP08 UNP09 UNP10 UNP11 UNP12 UNP13 UNP14 UNP15 UNP16 UNP17 UNP18 UNP19 UNP20 UNP21 UNP22
 
 # =============================================================================
 # Built-in targets
