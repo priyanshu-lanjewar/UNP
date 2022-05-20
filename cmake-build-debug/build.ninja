@@ -54,8 +54,6 @@ build CMakeFiles/UNP01.dir/main.c.o: C_COMPILER__UNP01_Debug /home/priyanshu/UNP
   FLAGS = -g -std=gnu99
   OBJECT_DIR = CMakeFiles/UNP01.dir
   OBJECT_FILE_DIR = CMakeFiles/UNP01.dir
-  TARGET_COMPILE_PDB = CMakeFiles/UNP01.dir/
-  TARGET_PDB = UNP01.pdb
 
 
 # =============================================================================
@@ -70,9 +68,8 @@ build UNP01: C_EXECUTABLE_LINKER__UNP01_Debug CMakeFiles/UNP01.dir/main.c.o
   OBJECT_DIR = CMakeFiles/UNP01.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/UNP01.dir/
   TARGET_FILE = UNP01
-  TARGET_PDB = UNP01.pdb
+  TARGET_PDB = UNP01.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target UNP02
@@ -88,8 +85,6 @@ build CMakeFiles/UNP02.dir/TIME/client.c.o: C_COMPILER__UNP02_Debug /home/priyan
   FLAGS = -g -std=gnu99
   OBJECT_DIR = CMakeFiles/UNP02.dir
   OBJECT_FILE_DIR = CMakeFiles/UNP02.dir/TIME
-  TARGET_COMPILE_PDB = CMakeFiles/UNP02.dir/
-  TARGET_PDB = UNP02.pdb
 
 
 # =============================================================================
@@ -104,9 +99,8 @@ build UNP02: C_EXECUTABLE_LINKER__UNP02_Debug CMakeFiles/UNP02.dir/TIME/client.c
   OBJECT_DIR = CMakeFiles/UNP02.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/UNP02.dir/
   TARGET_FILE = UNP02
-  TARGET_PDB = UNP02.pdb
+  TARGET_PDB = UNP02.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target UNP03
@@ -122,8 +116,6 @@ build CMakeFiles/UNP03.dir/TIME/server.c.o: C_COMPILER__UNP03_Debug /home/priyan
   FLAGS = -g -std=gnu99
   OBJECT_DIR = CMakeFiles/UNP03.dir
   OBJECT_FILE_DIR = CMakeFiles/UNP03.dir/TIME
-  TARGET_COMPILE_PDB = CMakeFiles/UNP03.dir/
-  TARGET_PDB = UNP03.pdb
 
 
 # =============================================================================
@@ -138,9 +130,8 @@ build UNP03: C_EXECUTABLE_LINKER__UNP03_Debug CMakeFiles/UNP03.dir/TIME/server.c
   OBJECT_DIR = CMakeFiles/UNP03.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/UNP03.dir/
   TARGET_FILE = UNP03
-  TARGET_PDB = UNP03.pdb
+  TARGET_PDB = UNP03.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target UNP04
@@ -156,8 +147,6 @@ build CMakeFiles/UNP04.dir/ECHO/EchoClient.c.o: C_COMPILER__UNP04_Debug /home/pr
   FLAGS = -g -std=gnu99
   OBJECT_DIR = CMakeFiles/UNP04.dir
   OBJECT_FILE_DIR = CMakeFiles/UNP04.dir/ECHO
-  TARGET_COMPILE_PDB = CMakeFiles/UNP04.dir/
-  TARGET_PDB = UNP04.pdb
 
 
 # =============================================================================
@@ -172,9 +161,8 @@ build UNP04: C_EXECUTABLE_LINKER__UNP04_Debug CMakeFiles/UNP04.dir/ECHO/EchoClie
   OBJECT_DIR = CMakeFiles/UNP04.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/UNP04.dir/
   TARGET_FILE = UNP04
-  TARGET_PDB = UNP04.pdb
+  TARGET_PDB = UNP04.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target UNP05
@@ -190,8 +178,6 @@ build CMakeFiles/UNP05.dir/ECHO/EchoServer.c.o: C_COMPILER__UNP05_Debug /home/pr
   FLAGS = -g -std=gnu99
   OBJECT_DIR = CMakeFiles/UNP05.dir
   OBJECT_FILE_DIR = CMakeFiles/UNP05.dir/ECHO
-  TARGET_COMPILE_PDB = CMakeFiles/UNP05.dir/
-  TARGET_PDB = UNP05.pdb
 
 
 # =============================================================================
@@ -206,9 +192,8 @@ build UNP05: C_EXECUTABLE_LINKER__UNP05_Debug CMakeFiles/UNP05.dir/ECHO/EchoServ
   OBJECT_DIR = CMakeFiles/UNP05.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/UNP05.dir/
   TARGET_FILE = UNP05
-  TARGET_PDB = UNP05.pdb
+  TARGET_PDB = UNP05.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target UNP06
@@ -224,8 +209,6 @@ build CMakeFiles/UNP06.dir/CHAT/chat-client.c.o: C_COMPILER__UNP06_Debug /home/p
   FLAGS = -g -std=gnu99
   OBJECT_DIR = CMakeFiles/UNP06.dir
   OBJECT_FILE_DIR = CMakeFiles/UNP06.dir/CHAT
-  TARGET_COMPILE_PDB = CMakeFiles/UNP06.dir/
-  TARGET_PDB = UNP06.pdb
 
 
 # =============================================================================
@@ -240,9 +223,8 @@ build UNP06: C_EXECUTABLE_LINKER__UNP06_Debug CMakeFiles/UNP06.dir/CHAT/chat-cli
   OBJECT_DIR = CMakeFiles/UNP06.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/UNP06.dir/
   TARGET_FILE = UNP06
-  TARGET_PDB = UNP06.pdb
+  TARGET_PDB = UNP06.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target UNP07
@@ -258,8 +240,6 @@ build CMakeFiles/UNP07.dir/CHAT/chat-server.c.o: C_COMPILER__UNP07_Debug /home/p
   FLAGS = -g -std=gnu99
   OBJECT_DIR = CMakeFiles/UNP07.dir
   OBJECT_FILE_DIR = CMakeFiles/UNP07.dir/CHAT
-  TARGET_COMPILE_PDB = CMakeFiles/UNP07.dir/
-  TARGET_PDB = UNP07.pdb
 
 
 # =============================================================================
@@ -274,9 +254,8 @@ build UNP07: C_EXECUTABLE_LINKER__UNP07_Debug CMakeFiles/UNP07.dir/CHAT/chat-ser
   OBJECT_DIR = CMakeFiles/UNP07.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/UNP07.dir/
   TARGET_FILE = UNP07
-  TARGET_PDB = UNP07.pdb
+  TARGET_PDB = UNP07.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target UNP08
@@ -292,8 +271,6 @@ build CMakeFiles/UNP08.dir/CONCURRENT_ECHO/EchoClient01.c.o: C_COMPILER__UNP08_D
   FLAGS = -g -std=gnu99
   OBJECT_DIR = CMakeFiles/UNP08.dir
   OBJECT_FILE_DIR = CMakeFiles/UNP08.dir/CONCURRENT_ECHO
-  TARGET_COMPILE_PDB = CMakeFiles/UNP08.dir/
-  TARGET_PDB = UNP08.pdb
 
 
 # =============================================================================
@@ -308,9 +285,8 @@ build UNP08: C_EXECUTABLE_LINKER__UNP08_Debug CMakeFiles/UNP08.dir/CONCURRENT_EC
   OBJECT_DIR = CMakeFiles/UNP08.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/UNP08.dir/
   TARGET_FILE = UNP08
-  TARGET_PDB = UNP08.pdb
+  TARGET_PDB = UNP08.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target UNP09
@@ -326,8 +302,6 @@ build CMakeFiles/UNP09.dir/CONCURRENT_ECHO/EchoClient02.c.o: C_COMPILER__UNP09_D
   FLAGS = -g -std=gnu99
   OBJECT_DIR = CMakeFiles/UNP09.dir
   OBJECT_FILE_DIR = CMakeFiles/UNP09.dir/CONCURRENT_ECHO
-  TARGET_COMPILE_PDB = CMakeFiles/UNP09.dir/
-  TARGET_PDB = UNP09.pdb
 
 
 # =============================================================================
@@ -342,9 +316,8 @@ build UNP09: C_EXECUTABLE_LINKER__UNP09_Debug CMakeFiles/UNP09.dir/CONCURRENT_EC
   OBJECT_DIR = CMakeFiles/UNP09.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/UNP09.dir/
   TARGET_FILE = UNP09
-  TARGET_PDB = UNP09.pdb
+  TARGET_PDB = UNP09.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target UNP10
@@ -360,8 +333,6 @@ build CMakeFiles/UNP10.dir/CONCURRENT_ECHO/EchoServer.c.o: C_COMPILER__UNP10_Deb
   FLAGS = -g -std=gnu99
   OBJECT_DIR = CMakeFiles/UNP10.dir
   OBJECT_FILE_DIR = CMakeFiles/UNP10.dir/CONCURRENT_ECHO
-  TARGET_COMPILE_PDB = CMakeFiles/UNP10.dir/
-  TARGET_PDB = UNP10.pdb
 
 
 # =============================================================================
@@ -376,9 +347,8 @@ build UNP10: C_EXECUTABLE_LINKER__UNP10_Debug CMakeFiles/UNP10.dir/CONCURRENT_EC
   OBJECT_DIR = CMakeFiles/UNP10.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/UNP10.dir/
   TARGET_FILE = UNP10
-  TARGET_PDB = UNP10.pdb
+  TARGET_PDB = UNP10.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target UNP11
@@ -394,8 +364,6 @@ build CMakeFiles/UNP11.dir/CONCURRENT_CHAT/chat-client-01.c.o: C_COMPILER__UNP11
   FLAGS = -g -std=gnu99
   OBJECT_DIR = CMakeFiles/UNP11.dir
   OBJECT_FILE_DIR = CMakeFiles/UNP11.dir/CONCURRENT_CHAT
-  TARGET_COMPILE_PDB = CMakeFiles/UNP11.dir/
-  TARGET_PDB = UNP11.pdb
 
 
 # =============================================================================
@@ -410,9 +378,8 @@ build UNP11: C_EXECUTABLE_LINKER__UNP11_Debug CMakeFiles/UNP11.dir/CONCURRENT_CH
   OBJECT_DIR = CMakeFiles/UNP11.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/UNP11.dir/
   TARGET_FILE = UNP11
-  TARGET_PDB = UNP11.pdb
+  TARGET_PDB = UNP11.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target UNP12
@@ -428,8 +395,6 @@ build CMakeFiles/UNP12.dir/CONCURRENT_CHAT/chat-client-02.c.o: C_COMPILER__UNP12
   FLAGS = -g -std=gnu99
   OBJECT_DIR = CMakeFiles/UNP12.dir
   OBJECT_FILE_DIR = CMakeFiles/UNP12.dir/CONCURRENT_CHAT
-  TARGET_COMPILE_PDB = CMakeFiles/UNP12.dir/
-  TARGET_PDB = UNP12.pdb
 
 
 # =============================================================================
@@ -444,9 +409,8 @@ build UNP12: C_EXECUTABLE_LINKER__UNP12_Debug CMakeFiles/UNP12.dir/CONCURRENT_CH
   OBJECT_DIR = CMakeFiles/UNP12.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/UNP12.dir/
   TARGET_FILE = UNP12
-  TARGET_PDB = UNP12.pdb
+  TARGET_PDB = UNP12.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target UNP13
@@ -462,8 +426,6 @@ build CMakeFiles/UNP13.dir/CONCURRENT_CHAT/chat-server.c.o: C_COMPILER__UNP13_De
   FLAGS = -g -std=gnu99
   OBJECT_DIR = CMakeFiles/UNP13.dir
   OBJECT_FILE_DIR = CMakeFiles/UNP13.dir/CONCURRENT_CHAT
-  TARGET_COMPILE_PDB = CMakeFiles/UNP13.dir/
-  TARGET_PDB = UNP13.pdb
 
 
 # =============================================================================
@@ -478,9 +440,70 @@ build UNP13: C_EXECUTABLE_LINKER__UNP13_Debug CMakeFiles/UNP13.dir/CONCURRENT_CH
   OBJECT_DIR = CMakeFiles/UNP13.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/UNP13.dir/
   TARGET_FILE = UNP13
-  TARGET_PDB = UNP13.pdb
+  TARGET_PDB = UNP13.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target UNP14
+
+
+#############################################
+# Order-only phony target for UNP14
+
+build cmake_object_order_depends_target_UNP14: phony || CMakeFiles/UNP14.dir
+
+build CMakeFiles/UNP14.dir/EXAMPLE/bzero_str.c.o: C_COMPILER__UNP14_Debug /home/priyanshu/UNP/EXAMPLE/bzero_str.c || cmake_object_order_depends_target_UNP14
+  DEP_FILE = CMakeFiles/UNP14.dir/EXAMPLE/bzero_str.c.o.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles/UNP14.dir
+  OBJECT_FILE_DIR = CMakeFiles/UNP14.dir/EXAMPLE
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target UNP14
+
+
+#############################################
+# Link the executable UNP14
+
+build UNP14: C_EXECUTABLE_LINKER__UNP14_Debug CMakeFiles/UNP14.dir/EXAMPLE/bzero_str.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/UNP14.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = UNP14
+  TARGET_PDB = UNP14.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target UNP15
+
+
+#############################################
+# Order-only phony target for UNP15
+
+build cmake_object_order_depends_target_UNP15: phony || CMakeFiles/UNP15.dir
+
+build CMakeFiles/UNP15.dir/EXAMPLE/bzero_int.c.o: C_COMPILER__UNP15_Debug /home/priyanshu/UNP/EXAMPLE/bzero_int.c || cmake_object_order_depends_target_UNP15
+  DEP_FILE = CMakeFiles/UNP15.dir/EXAMPLE/bzero_int.c.o.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles/UNP15.dir
+  OBJECT_FILE_DIR = CMakeFiles/UNP15.dir/EXAMPLE
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target UNP15
+
+
+#############################################
+# Link the executable UNP15
+
+build UNP15: C_EXECUTABLE_LINKER__UNP15_Debug CMakeFiles/UNP15.dir/EXAMPLE/bzero_int.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/UNP15.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = UNP15
+  TARGET_PDB = UNP15.dbg
 
 
 #############################################
@@ -517,7 +540,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /home/priyanshu/UNP/cmake-build-debug
 
-build all: phony UNP01 UNP02 UNP03 UNP04 UNP05 UNP06 UNP07 UNP08 UNP09 UNP10 UNP11 UNP12 UNP13
+build all: phony UNP01 UNP02 UNP03 UNP04 UNP05 UNP06 UNP07 UNP08 UNP09 UNP10 UNP11 UNP12 UNP13 UNP14 UNP15
 
 # =============================================================================
 # Built-in targets
@@ -526,14 +549,14 @@ build all: phony UNP01 UNP02 UNP03 UNP04 UNP05 UNP06 UNP07 UNP08 UNP09 UNP10 UNP
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | ../CMakeLists.txt /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/CMakeCCompiler.cmake.in /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/CMakeCCompilerABI.c /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/CMakeCInformation.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/CMakeCommonLanguageInclude.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/CMakeCompilerIdDetection.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/CMakeDetermineCCompiler.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/CMakeDetermineCompileFeatures.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/CMakeDetermineCompiler.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/CMakeDetermineCompilerABI.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/CMakeDetermineCompilerId.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/CMakeDetermineSystem.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/CMakeFindBinUtils.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/CMakeGenericSystem.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/CMakeInitializeConfigs.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/CMakeLanguageInformation.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/CMakeParseImplicitIncludeInfo.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/CMakeParseImplicitLinkInfo.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/CMakeParseLibraryArchitecture.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/CMakeSystem.cmake.in /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/CMakeSystemSpecificInformation.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/CMakeSystemSpecificInitialize.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/CMakeTestCCompiler.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/CMakeTestCompilerCommon.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/ADSP-DetermineCompiler.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/ARMCC-DetermineCompiler.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/ARMClang-DetermineCompiler.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/AppleClang-DetermineCompiler.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/Borland-DetermineCompiler.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/Bruce-C-DetermineCompiler.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/CMakeCommonCompilerMacros.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/Clang-DetermineCompiler.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/Compaq-C-DetermineCompiler.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/Cray-DetermineCompiler.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/GHS-DetermineCompiler.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/GNU-C-DetermineCompiler.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/GNU-C.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/GNU-FindBinUtils.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/GNU.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/HP-C-DetermineCompiler.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/IAR-DetermineCompiler.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/Intel-DetermineCompiler.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/MSVC-DetermineCompiler.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/NVHPC-DetermineCompiler.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/PGI-DetermineCompiler.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/PathScale-DetermineCompiler.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/SCO-DetermineCompiler.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/SDCC-C-DetermineCompiler.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/SunPro-C-DetermineCompiler.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/TI-DetermineCompiler.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/Watcom-DetermineCompiler.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/XL-C-DetermineCompiler.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/XLClang-C-DetermineCompiler.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/zOS-C-DetermineCompiler.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/Internal/FeatureTesting.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/Platform/Linux-GNU-C.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/Platform/Linux-GNU.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/Platform/Linux.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.22.3/CMakeCCompiler.cmake CMakeFiles/3.22.3/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | ../CMakeLists.txt /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/CMakeCInformation.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/CMakeCommonLanguageInclude.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/CMakeGenericSystem.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/CMakeInitializeConfigs.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/CMakeLanguageInformation.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/CMakeSystemSpecificInformation.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/CMakeSystemSpecificInitialize.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/CMakeCommonCompilerMacros.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/GNU-C.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/GNU.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/Platform/Linux-GNU-C.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/Platform/Linux-GNU.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/Platform/Linux.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.22.3/CMakeCCompiler.cmake CMakeFiles/3.22.3/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build ../CMakeLists.txt /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/CMakeCCompiler.cmake.in /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/CMakeCCompilerABI.c /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/CMakeCInformation.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/CMakeCommonLanguageInclude.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/CMakeCompilerIdDetection.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/CMakeDetermineCCompiler.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/CMakeDetermineCompileFeatures.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/CMakeDetermineCompiler.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/CMakeDetermineCompilerABI.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/CMakeDetermineCompilerId.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/CMakeDetermineSystem.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/CMakeFindBinUtils.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/CMakeGenericSystem.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/CMakeInitializeConfigs.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/CMakeLanguageInformation.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/CMakeParseImplicitIncludeInfo.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/CMakeParseImplicitLinkInfo.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/CMakeParseLibraryArchitecture.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/CMakeSystem.cmake.in /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/CMakeSystemSpecificInformation.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/CMakeSystemSpecificInitialize.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/CMakeTestCCompiler.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/CMakeTestCompilerCommon.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/ADSP-DetermineCompiler.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/ARMCC-DetermineCompiler.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/ARMClang-DetermineCompiler.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/AppleClang-DetermineCompiler.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/Borland-DetermineCompiler.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/Bruce-C-DetermineCompiler.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/CMakeCommonCompilerMacros.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/Clang-DetermineCompiler.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/Compaq-C-DetermineCompiler.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/Cray-DetermineCompiler.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/GHS-DetermineCompiler.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/GNU-C-DetermineCompiler.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/GNU-C.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/GNU-FindBinUtils.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/GNU.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/HP-C-DetermineCompiler.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/IAR-DetermineCompiler.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/Intel-DetermineCompiler.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/MSVC-DetermineCompiler.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/NVHPC-DetermineCompiler.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/PGI-DetermineCompiler.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/PathScale-DetermineCompiler.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/SCO-DetermineCompiler.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/SDCC-C-DetermineCompiler.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/SunPro-C-DetermineCompiler.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/TI-DetermineCompiler.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/Watcom-DetermineCompiler.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/XL-C-DetermineCompiler.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/XLClang-C-DetermineCompiler.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/zOS-C-DetermineCompiler.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/Internal/FeatureTesting.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/Platform/Linux-GNU-C.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/Platform/Linux-GNU.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/Platform/Linux.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.22.3/CMakeCCompiler.cmake CMakeFiles/3.22.3/CMakeSystem.cmake: phony
+build ../CMakeLists.txt /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/CMakeCInformation.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/CMakeCommonLanguageInclude.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/CMakeGenericSystem.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/CMakeInitializeConfigs.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/CMakeLanguageInformation.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/CMakeSystemSpecificInformation.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/CMakeSystemSpecificInitialize.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/CMakeCommonCompilerMacros.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/GNU-C.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/GNU.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/Platform/Linux-GNU-C.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/Platform/Linux-GNU.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/Platform/Linux.cmake /snap/clion/190/bin/cmake/linux/share/cmake-3.22/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.22.3/CMakeCCompiler.cmake CMakeFiles/3.22.3/CMakeSystem.cmake: phony
 
 
 #############################################
