@@ -722,6 +722,130 @@ build UNP22: C_EXECUTABLE_LINKER__UNP22_Debug CMakeFiles/UNP22.dir/EXAMPLE/ip_ma
   TARGET_FILE = UNP22
   TARGET_PDB = UNP22.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target UNP23
+
+
+#############################################
+# Order-only phony target for UNP23
+
+build cmake_object_order_depends_target_UNP23: phony || CMakeFiles/UNP23.dir
+
+build CMakeFiles/UNP23.dir/EXAMPLE/inet_aton.c.o: C_COMPILER__UNP23_Debug /home/priyanshu/UNP/EXAMPLE/inet_aton.c || cmake_object_order_depends_target_UNP23
+  DEP_FILE = CMakeFiles/UNP23.dir/EXAMPLE/inet_aton.c.o.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles/UNP23.dir
+  OBJECT_FILE_DIR = CMakeFiles/UNP23.dir/EXAMPLE
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target UNP23
+
+
+#############################################
+# Link the executable UNP23
+
+build UNP23: C_EXECUTABLE_LINKER__UNP23_Debug CMakeFiles/UNP23.dir/EXAMPLE/inet_aton.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/UNP23.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = UNP23
+  TARGET_PDB = UNP23.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target UNP24
+
+
+#############################################
+# Order-only phony target for UNP24
+
+build cmake_object_order_depends_target_UNP24: phony || CMakeFiles/UNP24.dir
+
+build CMakeFiles/UNP24.dir/EXAMPLE/ip_validator.c.o: C_COMPILER__UNP24_Debug /home/priyanshu/UNP/EXAMPLE/ip_validator.c || cmake_object_order_depends_target_UNP24
+  DEP_FILE = CMakeFiles/UNP24.dir/EXAMPLE/ip_validator.c.o.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles/UNP24.dir
+  OBJECT_FILE_DIR = CMakeFiles/UNP24.dir/EXAMPLE
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target UNP24
+
+
+#############################################
+# Link the executable UNP24
+
+build UNP24: C_EXECUTABLE_LINKER__UNP24_Debug CMakeFiles/UNP24.dir/EXAMPLE/ip_validator.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/UNP24.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = UNP24
+  TARGET_PDB = UNP24.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target UNP25
+
+
+#############################################
+# Order-only phony target for UNP25
+
+build cmake_object_order_depends_target_UNP25: phony || CMakeFiles/UNP25.dir
+
+build CMakeFiles/UNP25.dir/EXAMPLE/inet_ntoa.c.o: C_COMPILER__UNP25_Debug /home/priyanshu/UNP/EXAMPLE/inet_ntoa.c || cmake_object_order_depends_target_UNP25
+  DEP_FILE = CMakeFiles/UNP25.dir/EXAMPLE/inet_ntoa.c.o.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles/UNP25.dir
+  OBJECT_FILE_DIR = CMakeFiles/UNP25.dir/EXAMPLE
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target UNP25
+
+
+#############################################
+# Link the executable UNP25
+
+build UNP25: C_EXECUTABLE_LINKER__UNP25_Debug CMakeFiles/UNP25.dir/EXAMPLE/inet_ntoa.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/UNP25.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = UNP25
+  TARGET_PDB = UNP25.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target UNP26
+
+
+#############################################
+# Order-only phony target for UNP26
+
+build cmake_object_order_depends_target_UNP26: phony || CMakeFiles/UNP26.dir
+
+build CMakeFiles/UNP26.dir/EXAMPLE/inet_pton.c.o: C_COMPILER__UNP26_Debug /home/priyanshu/UNP/EXAMPLE/inet_pton.c || cmake_object_order_depends_target_UNP26
+  DEP_FILE = CMakeFiles/UNP26.dir/EXAMPLE/inet_pton.c.o.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles/UNP26.dir
+  OBJECT_FILE_DIR = CMakeFiles/UNP26.dir/EXAMPLE
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target UNP26
+
+
+#############################################
+# Link the executable UNP26
+
+build UNP26: C_EXECUTABLE_LINKER__UNP26_Debug CMakeFiles/UNP26.dir/EXAMPLE/inet_pton.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/UNP26.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = UNP26
+  TARGET_PDB = UNP26.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -757,7 +881,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /home/priyanshu/UNP/cmake-build-debug
 
-build all: phony UNP01 UNP02 UNP03 UNP04 UNP05 UNP06 UNP07 UNP08 UNP09 UNP10 UNP11 UNP12 UNP13 UNP14 UNP15 UNP16 UNP17 UNP18 UNP19 UNP20 UNP21 UNP22
+build all: phony UNP01 UNP02 UNP03 UNP04 UNP05 UNP06 UNP07 UNP08 UNP09 UNP10 UNP11 UNP12 UNP13 UNP14 UNP15 UNP16 UNP17 UNP18 UNP19 UNP20 UNP21 UNP22 UNP23 UNP24 UNP25 UNP26
 
 # =============================================================================
 # Built-in targets
