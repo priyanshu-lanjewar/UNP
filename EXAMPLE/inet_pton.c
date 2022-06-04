@@ -1,6 +1,5 @@
 #include "stdio.h"
 #include "arpa/inet.h"
-#include "strings.h"
 
 int main(){
     struct sockaddr_in s;
