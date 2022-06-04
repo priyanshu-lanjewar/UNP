@@ -80,7 +80,8 @@ int main(int argc, char *argv[])
         printf("\nEnter Message to Sent : ");
 
         // scanning input
-        scanf("%s", data);
+        char *nn = fgets(data,200,stdin);
+        if(nn==NULL) int_handel(SIGINT); // handling EOF interrupt ( ctrl + d)
 
         /*
         * syntax of write
