@@ -846,6 +846,130 @@ build UNP26: C_EXECUTABLE_LINKER__UNP26_Debug CMakeFiles/UNP26.dir/EXAMPLE/inet_
   TARGET_FILE = UNP26
   TARGET_PDB = UNP26.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target UNP27
+
+
+#############################################
+# Order-only phony target for UNP27
+
+build cmake_object_order_depends_target_UNP27: phony || CMakeFiles/UNP27.dir
+
+build CMakeFiles/UNP27.dir/LAB_TEST_1/server.c.o: C_COMPILER__UNP27_Debug /home/priyanshu/UNP/LAB$ TEST$ 1/server.c || cmake_object_order_depends_target_UNP27
+  DEP_FILE = CMakeFiles/UNP27.dir/LAB_TEST_1/server.c.o.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles/UNP27.dir
+  OBJECT_FILE_DIR = CMakeFiles/UNP27.dir/LAB_TEST_1
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target UNP27
+
+
+#############################################
+# Link the executable UNP27
+
+build UNP27: C_EXECUTABLE_LINKER__UNP27_Debug CMakeFiles/UNP27.dir/LAB_TEST_1/server.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/UNP27.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = UNP27
+  TARGET_PDB = UNP27.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target UNP28
+
+
+#############################################
+# Order-only phony target for UNP28
+
+build cmake_object_order_depends_target_UNP28: phony || CMakeFiles/UNP28.dir
+
+build CMakeFiles/UNP28.dir/LAB_TEST_1/client.c.o: C_COMPILER__UNP28_Debug /home/priyanshu/UNP/LAB$ TEST$ 1/client.c || cmake_object_order_depends_target_UNP28
+  DEP_FILE = CMakeFiles/UNP28.dir/LAB_TEST_1/client.c.o.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles/UNP28.dir
+  OBJECT_FILE_DIR = CMakeFiles/UNP28.dir/LAB_TEST_1
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target UNP28
+
+
+#############################################
+# Link the executable UNP28
+
+build UNP28: C_EXECUTABLE_LINKER__UNP28_Debug CMakeFiles/UNP28.dir/LAB_TEST_1/client.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/UNP28.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = UNP28
+  TARGET_PDB = UNP28.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target UNP29
+
+
+#############################################
+# Order-only phony target for UNP29
+
+build cmake_object_order_depends_target_UNP29: phony || CMakeFiles/UNP29.dir
+
+build CMakeFiles/UNP29.dir/IO_MUX/server.c.o: C_COMPILER__UNP29_Debug /home/priyanshu/UNP/IO$ MUX/server.c || cmake_object_order_depends_target_UNP29
+  DEP_FILE = CMakeFiles/UNP29.dir/IO_MUX/server.c.o.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles/UNP29.dir
+  OBJECT_FILE_DIR = CMakeFiles/UNP29.dir/IO_MUX
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target UNP29
+
+
+#############################################
+# Link the executable UNP29
+
+build UNP29: C_EXECUTABLE_LINKER__UNP29_Debug CMakeFiles/UNP29.dir/IO_MUX/server.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/UNP29.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = UNP29
+  TARGET_PDB = UNP29.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target UNP30
+
+
+#############################################
+# Order-only phony target for UNP30
+
+build cmake_object_order_depends_target_UNP30: phony || CMakeFiles/UNP30.dir
+
+build CMakeFiles/UNP30.dir/IO_MUX/client.c.o: C_COMPILER__UNP30_Debug /home/priyanshu/UNP/IO$ MUX/client.c || cmake_object_order_depends_target_UNP30
+  DEP_FILE = CMakeFiles/UNP30.dir/IO_MUX/client.c.o.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles/UNP30.dir
+  OBJECT_FILE_DIR = CMakeFiles/UNP30.dir/IO_MUX
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target UNP30
+
+
+#############################################
+# Link the executable UNP30
+
+build UNP30: C_EXECUTABLE_LINKER__UNP30_Debug CMakeFiles/UNP30.dir/IO_MUX/client.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/UNP30.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = UNP30
+  TARGET_PDB = UNP30.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -881,7 +1005,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /home/priyanshu/UNP/cmake-build-debug
 
-build all: phony UNP01 UNP02 UNP03 UNP04 UNP05 UNP06 UNP07 UNP08 UNP09 UNP10 UNP11 UNP12 UNP13 UNP14 UNP15 UNP16 UNP17 UNP18 UNP19 UNP20 UNP21 UNP22 UNP23 UNP24 UNP25 UNP26
+build all: phony UNP01 UNP02 UNP03 UNP04 UNP05 UNP06 UNP07 UNP08 UNP09 UNP10 UNP11 UNP12 UNP13 UNP14 UNP15 UNP16 UNP17 UNP18 UNP19 UNP20 UNP21 UNP22 UNP23 UNP24 UNP25 UNP26 UNP27 UNP28 UNP29 UNP30
 
 # =============================================================================
 # Built-in targets
