@@ -5,9 +5,8 @@
 #include<stdlib.h>
 #include<signal.h>
 #include<sys/wait.h>
-// pid_t wait(int *sat_loc);
-//#include<time.h>
-//#include<string.h>
+#include<sys/select.h>
+#define  MAX(a,b) (a>b ? a : b)
 int l_socket, s_socket;
 void stop(int sig)
 {
@@ -28,33 +27,28 @@ int main(int argc, char *argv[])
 	signal(SIGINT, stop);
 	// listening socket
 	l_socket = socket(AF_INET, SOCK_STREAM, 0);
-
-	// store server details
 	struct sockaddr_in server_addr;
 	server_addr.sin_family = AF_INET;
 	server_addr.sin_port = htons(0);
 	server_addr.sin_addr.s_addr = htonl(INADDR_ANY) ;//inet_addr(argv[1])i;
-	// srever_addr.sin_addr.s_addr = inet_addr("127.0.0.1");
-	// inet_aton(char *, struct in_adrr *)
-	// inet_aton("127.0.0.1", &server_addr.sin_addr);
-	// char * inet_ntoa(struct in_addr );
-	// char ip[30] = net_ntoa(server_addr.sin_addr);
 	int len = sizeof(struct sockaddr_in);
 	//bind the socket to port
 	bind( l_socket, (struct sockaddr *) &server_addr, sizeof(server_addr));
 	getsockname(l_socket, (struct sockaddr *)&server_addr, &len);
 	printf("Port number is : %d\n", (int)ntohs(server_addr.sin_port));
-	// start listen process
+
 	listen(l_socket, 10);
 
 	struct sockaddr_in client_addr;
 	int client_sz= sizeof(struct sockaddr);
+    fd_set* read_set = malloc(sizeof(fd_set));
+    FD_ZERO(read_set);
+    int maxFd;
 	char data[200];
 	int n;
-	//time_t tick;
+
 	while(1)
-	{
-		// accept + (read/ write) + close_new_socket
+    {
 		s_socket = accept( l_socket, (struct sockaddr *) &client_addr, &client_sz);
 		if ( fork()==0)
 		{

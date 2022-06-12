@@ -5,6 +5,7 @@
 #include<stdlib.h>
 #include<string.h>
 #include<signal.h>
+#include<sys/select.h>
 // signal(signal_id, function_name)
 int net_socket;
 void int_handel(int sig)
@@ -17,33 +18,43 @@ void int_handel(int sig)
 int main(int argc, char *argv[])
 {
 	signal(SIGINT, int_handel);
-	// create socket
 	net_socket = socket (AF_INET, SOCK_STREAM, 0);
-	
-	// connect to server
-	// define address
 	struct sockaddr_in server_address;
 	server_address.sin_family = AF_INET;
 	server_address.sin_port = htons(atoi(argv[2]));
 	server_address.sin_addr.s_addr = inet_addr(argv[1]);
-	// call connect function
 	connect(net_socket, (struct sockaddr *) &server_address, sizeof(server_address));
-
-	//
-	//recv data
+    fd_set* read_set = malloc(sizeof(fd_set));
+    FD_ZERO(read_set);
+    int maxfd;
 	char data[201];
 	int n;
 	while(1)
 	{
-        FD_SET(fileno())
-		printf("\nEnter : ");
-		scanf(" %s", data);
-		write(net_socket, data, strlen(data));
-		n = recv(net_socket, data, 200, 0);
-		if (n==0)
-			break;
-		data[n] = '\0';
-		printf("%s\n", data);
+        FD_SET(fileno(stdin),read_set);
+        FD_SET(net_socket,read_set);
+        maxfd = 1 + (net_socket > fileno(stdin) ? net_socket : fileno(stdin));
+        select(maxfd,read_set,NULL,NULL,NULL);
+        if(FD_ISSET(fileno(stdin),read_set)){
+            if(fgets(data,200,stdin)==NULL){
+                printf("Client Terminated The connection..");
+                break;
+            }
+            else{
+                write(net_socket,data, strlen(data));
+            }
+        }
+        if(FD_ISSET(net_socket,read_set)){
+            n = recv(net_socket,data,200,0);
+            if(n==0){
+                printf("Server Terminated The Connections ......");
+                break;
+            }
+            else{
+                data[n] = '\0';
+                printf("%s\n",data);
+            }
+        }
 	}
 	//close the connection
 	close(net_socket);

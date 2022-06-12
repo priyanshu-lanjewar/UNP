@@ -28,5 +28,7 @@
 /home/priyanshu/UNP/cmake-build-debug/CMakeFiles/UNP28.dir
 /home/priyanshu/UNP/cmake-build-debug/CMakeFiles/UNP29.dir
 /home/priyanshu/UNP/cmake-build-debug/CMakeFiles/UNP30.dir
+/home/priyanshu/UNP/cmake-build-debug/CMakeFiles/UNP31.dir
+/home/priyanshu/UNP/cmake-build-debug/CMakeFiles/UNP32.dir
 /home/priyanshu/UNP/cmake-build-debug/CMakeFiles/edit_cache.dir
 /home/priyanshu/UNP/cmake-build-debug/CMakeFiles/rebuild_cache.dir
